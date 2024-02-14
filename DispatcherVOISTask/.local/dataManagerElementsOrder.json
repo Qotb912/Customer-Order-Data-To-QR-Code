@@ -1,0 +1,318 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "strSeqName&Sequence_33",
+        "tSeqStartTime&Sequence_33",
+        "ShouldStop&Sequence_25",
+        "strSeqName&Sequence_36",
+        "tSeqStartTime&Sequence_36"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2",
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/PDF/Read/OCR/Extract Customers Order Data By OCR.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolAlert&Sequence_22",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1",
+        "intPdfPageCount&Sequence_1",
+        "boolPdfExists&Sequence_3",
+        "str_ExtractedTextCustomerName&Sequence_8",
+        "str_ExtractedTextCountry&Sequence_8",
+        "str_ExtractedTextItem&Sequence_8",
+        "iter&Sequence_8",
+        "strPageNumber&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config",
+        "out_strArrAllCustomersItem",
+        "out_strArrAllCustomersCountry",
+        "out_strArrAllCustomersName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/PDF/Read/readCustomerOrderData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strArrCustomersName&Sequence_1",
+        "strArrCustomerCountry&Sequence_1",
+        "strArrOrederItems&Sequence_1",
+        "strArrOrderID&Sequence_1",
+        "strArrOrderDate&Sequence_1",
+        "strArrOrderCurrency&Sequence_1",
+        "strArrOrderQuantity&Sequence_1",
+        "strArrOrderPrice&Sequence_1",
+        "strPdfData&Sequence_1",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config",
+        "out_dtCustomerOrderData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/PDF/other/ConvertArraysToDataTable.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "_out_InterruptibleWhile_1__CurrentIndex&Sequence_1",
+        "iter&Sequence_5",
+        "strArrColumnsName&Sequence_5",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_dtCustomersOrderData",
+        "in_strArrAllOrderPrice",
+        "in_strArrAllOrderQuantity",
+        "in_strArrAllOrderCurrency",
+        "in_strArrAllOrderDate",
+        "in_strArrAllOrderID",
+        "in_strArrAllCustomersItem",
+        "in_strArrAllCustomersCountry",
+        "in_strArrAllCustomersName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/PDF/Read/Text/readPdfData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_8",
+        "tSeqStartTime&Sequence_8",
+        "boolPdfExists&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "out_strTextPdf"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/PDF/other/ExtractCustomersOrderDataByRegex.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "tempOrdersCurrency_Price&Sequence_5",
+        "OrdersID&Sequence_6",
+        "OrdersDate&Sequence_6",
+        "OrdersQuantity&Sequence_6",
+        "OrdersCurrency&Sequence_6",
+        "OrdersPrice&Sequence_6",
+        "strPrice&Sequence_6",
+        "strSeqName&Sequence_6",
+        "tSeqStartTime&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_strArrOrderDate",
+        "out_strArrOrderCurrency",
+        "out_strArrOrderQuantity",
+        "out_strArrOrderPrice",
+        "out_strArrOrderID",
+        "in_strSplitter",
+        "in_strPdfData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtCustomerInvoice&Sequence_1",
+        "dtCustomerOrderData&Sequence_1",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config",
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/EXCEL/Write/AddTotal PriceColumn.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "temp.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/EXCEL/Write/ApplyGroupByOnOrderDataSheet.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtGroupDataTable&Sequence_1",
+        "temp&Sequence_4",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_dtCustomerInvoice",
+        "in_strSheetName",
+        "in_strExcelFileFullName",
+        "in_dtCustomerOrderData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/utilities/Queue/PushDataTableIntoQueue.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TargetDataTable&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strReferenceColumnName",
+        "in_strOrchestratorQueueFolder",
+        "in_strOrchestratorQueueName",
+        "in_strExcelFileFullName",
+        "in_strSheetName",
+        "in_strSeqName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/EXCEL/Write/InsertCustomerNameIntoNewSheetCustomerInvoice.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1",
+        "strArrColumnsName&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "out_dtCustomerInvoice"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/EXCEL/Write/CreateCustomerOrderDataExcel.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "tSeqStartTime&Sequence_1",
+        "boolExcelFileExists&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strCustomerOrderDataExcelFullName",
+        "in_strSheetName",
+        "in_strSeqName",
+        "in_DataTable"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolAlert&Sequence_11",
+        "strSeqName&Sequence_9",
+        "tSeqStartTime&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/CloseAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "temp.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_3",
+        "tSeqStartTime&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/QRCodeGenerator/Navigate/Open/OpenQRCodeGenerator.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolElementExists&Sequence_8",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strQRCodeGeneratorUrl"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_9",
+        "tSeqStartTime&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/QRCodeGenerator/Write/WriteFreeText.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strInnerText&Sequence_7",
+        "boolElementExists&Sequence_6",
+        "boolElementExists&Sequence_5",
+        "tSeqStartTime&Sequence_1",
+        "strSeqName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strQRCodeText",
+        "in_strAttributeName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/QRCodeGenerator/Navigate/NavigateToFreeText.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolElementExists&Sequence_9",
+        "boolElementExists&Sequence_2",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/OneDrive/UploadFile.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_FileFullName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strCreatedQRCodeImagePath&Sequence_1",
+        "strQRCodeImagesPath&Sequence_1",
+        "strCustomerInvoiceSheetName&Sequence_1",
+        "dtCustomerInvoiceCurrentItem&Sequence_1",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/Excel/Write/CreateCustomerOrderDataExcelFile.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtCustomersInvoice&Sequence_1",
+        "dtCustomersOrderData&Sequence_1",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strCustomerOrderDataFullName",
+        "in_strArrCustomerInvoiceSheetColumnsName",
+        "in_strArrCustomerOrderDataSheetColumnsName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/QRCodeGenerator/Navigate/Close/CloseQRCodeGenerator.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/QRCodeGenerator/Read/Download/DownloadQRCodeImage.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1",
+        "strInnerText&Sequence_3",
+        "downloadedFileInfo&Sequence_6",
+        "strInnerText&Sequence_5",
+        "bool_QRCodeImageExists&Sequence_14"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strAttributeName",
+        "in_strQRCodeText",
+        "in_strFolderPath",
+        "out_strImageFullName",
+        "in_intMaxRetryNumberDownloadQRCodeImage",
+        "in_strQRCodeImageName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/Excel/Write/AppendDataTableToExcelFile.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_DataTable",
+        "in_strSeqName",
+        "in_strFilePath",
+        "in_strSheetName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/Excel/Others/ConvertCustomerOrderDataItemToDataTable.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "argument1"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/Excel/Others/ConvertCustomerInvoiceItemToDataTable.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strArrRowData&Sequence_5",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_dtCustomersInvoice",
+        "in_strArrCustomerInvoiceSheetColumnsName",
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2",
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/QRCodeGenerator/Other/waitDownloadSubPageOpen.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolSupPageExists&State_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/QRCodeGenerator/Other/waitDownloadSubPageClose.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolSupPageExists&State_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/Queue/GetOrderDataItemsRelatedToCurrentCustomer.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "intNumberOfRetries&Sequence_3",
+        "CurrentCustomerOrderDataItems&Sequence_2",
+        "dtCurrentCustomerOrderData&Sequence_3",
+        "strCustomerOrderDataSheetName&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "in_TransactionItem",
+        "strQRCodeImagesPath",
+        "strCreatedQRCodeImagePath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
